@@ -68,6 +68,7 @@
     display: block;
     height: auto;
     background-image: url(../images/cover.jpg);
+    background-size: contain;
     padding: 165px 50px 50px;
 }
 
