@@ -31,7 +31,6 @@
 }
 
 .header__logo {
-    margin: 92px 0 96px;
     display: block;
 }
 
@@ -68,10 +67,12 @@
 .cover {
     position: relative;
     display: block;
-    height: auto;
     background-image: url(../images/cover.jpg);
-    background-size: contain;
-    padding: 165px 50px 50px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 50px;
+    height: 757px;
 }
 
 .overlay {
